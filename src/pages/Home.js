@@ -1,0 +1,1 @@
+export default function Home(){return (<div><h2>Welcome to God's Will Private Secondary School</h2><p>Use Student or Management links.</p></div>);}
