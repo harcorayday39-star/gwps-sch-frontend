@@ -1,1 +1,0 @@
-export default function Admin(){return (<div><h2>Management Area (demo)</h2><p>Login: admin@gwpss.com / admin123</p></div>);}
