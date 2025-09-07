@@ -1,0 +1,1 @@
+import React from 'react';import { load } from '../utils/storage';export default function AdminReceipts(){const db=load();return (<div className='container'><div className='card'><h3>Receipts</h3><pre>{JSON.stringify(db.payments||[],null,2)}</pre></div></div>); }

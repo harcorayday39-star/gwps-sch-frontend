@@ -1,0 +1,1 @@
+import React from 'react';import { load, save } from '../utils/storage';export default function AdminRelease(){const db=load();function release(){db.released = true;save(db);alert('Results released to students');}return (<div className='container'><div className='card'><h3>Release Results</h3><button onClick={release}>Release (students can now view)</button></div></div>); }

@@ -1,0 +1,1 @@
+export default function Home(){return (<div className='container'><div className='card'><h2>Welcome to God's Will Private Secondary School</h2><p>This portal lets students take exams and view results; management can register students, upload questions and release results.</p></div></div>); }
