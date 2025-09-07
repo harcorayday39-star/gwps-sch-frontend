@@ -1,0 +1,1 @@
+export default function Student(){return (<div><h2>Student Area (demo)</h2><p>Sample login: GW001 / student123</p></div>);}
